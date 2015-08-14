@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SBT: org.apache.cassandra:cassandra-clientutil:2.0.9:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.cassandra/cassandra-clientutil/jars/cassandra-clientutil-2.0.9.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.cassandra/cassandra-clientutil/docs/cassandra-clientutil-2.0.9-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.cassandra/cassandra-clientutil/srcs/cassandra-clientutil-2.0.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

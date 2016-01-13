@@ -8,22 +8,25 @@ version := "1.0"
 
 scalaVersion := "2.10.4"
 
-javacOptions ++= Seq("-source", "1.7", "-target", "1.7")
+//javacOptions ++= Seq("-source", "1.7", "-target", "1.7")
 
 // protocol buffer support
 //seq(sbtprotobuf.ProtobufPlugin.protobufSettings: _*)
 
 // additional libraries
+//libraryDependencies += "org.apache.spark" % "spark-streaming_2.10" % "1.5.2"
+//libraryDependencies += "org.apache.spark" %% "spark-core" % "1.5.2"
+
 libraryDependencies ++= Seq(
-  "org.apache.spark" %% "spark-core" % "1.2.0",
-  "org.apache.spark" %% "spark-sql" % "1.2.0",
-  "org.apache.spark" %% "spark-hive" % "1.2.0",
-  "org.apache.spark" %% "spark-streaming" % "1.2.0",
-  "org.apache.spark" %% "spark-streaming-kafka" % "1.2.0",
-  "org.apache.spark" %% "spark-streaming-flume" % "1.2.0",
-  "org.apache.spark" %% "spark-mllib" % "1.2.0",
-  "org.apache.spark" %% "spark-graphx" % "1.2.0",
-  "org.apache.commons" % "commons-lang3" % "3.0",
+  "org.apache.spark" %% "spark-core" % "1.5.2",
+  "org.apache.spark" %% "spark-sql" % "1.5.2",
+  "org.apache.spark" %% "spark-hive" % "1.5.2",
+  "org.apache.spark" %% "spark-streaming" % "1.5.2",
+  "org.apache.spark" %% "spark-streaming-kafka" % "1.5.2",
+  "org.apache.spark" %% "spark-streaming-flume" % "1.5.2",
+  "org.apache.spark" %% "spark-mllib" % "1.5.2",
+  "org.apache.spark" %% "spark-graphx" % "1.5.2",
+//  "org.apache.commons" % "commons-lang3" % "3.0",
   //"org.scalanlp" % "breeze-natives_2.11" %  "0.10",
   //"org.eclipse.jetty"  % "jetty-client" % "8.1.14.v20131031",
   "com.typesafe.play" % "play-json_2.10" % "2.2.1",
